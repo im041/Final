@@ -55,5 +55,5 @@ V(ausb)["Mast"]$color<-"darkolivegreen1"
 V(ausb)["Steinke"]$color<-"darkolivegreen1"
 V(ausb)["Franck"]$color<-"darkolivegreen1"
 
-plot(ausb)
+plot(ausb, layout=layout_with_fr)
 title("Meinungsführer und Promotionen der Grundlagenautoren", font.main= 2.5, col.main= "azure4")
