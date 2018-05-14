@@ -44,7 +44,7 @@ cluster_walktrap(pr)
 gc<-cluster_walktrap(pr)          
 modularity(gc)
 membership(gc)
-plot(gc,pr, vertex.size=5, edge.arrow.size=0.05, edge.curved=.2, vertex.label=NA, layout = layout_with_fr, main="Gesamtnetzwerk PR-Grundlagenliteratur"
+plot(gc,pr, vertex.size=5, edge.arrow.size=0.05, edge.curved=.2, vertex.label=NA, layout = layout_with_fr, main="Gesamtnetzwerk PR-Grundlagenliteratur", col.main="azure4")
 #Cluster Ende
      
 #Netzwerkmasse
