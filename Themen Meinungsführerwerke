@@ -38,5 +38,5 @@ edge.width=E(thema)$weight # Gewicht der Kanten nach Edge-Attribut "weight"
 ##Visualisierung Ende##
 
 #Grafik machen
-plot(thema)
+plot(thema, layout=layout_with_fr)
 title("Themen der Meinungsführerwerke", font.main= 2.5, col.main= "azure4")
